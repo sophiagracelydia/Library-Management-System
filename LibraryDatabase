@@ -26,6 +26,7 @@ insert into READERS values('C0007','meera','bintha','lila','koor','987654321','I
  // To view the values in the readers table
 select * from readers;
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 //To create a book table
 create table Book(
@@ -42,6 +43,8 @@ insert into book values('B0003','All is Well','Story');
 insert into book values('B0004','Fast and Furious','Story');
 
 select * from book;
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 // To create active_readers table
 create table active_readers(
@@ -69,6 +72,8 @@ insert into active_readers values('A0010','C0006','B0002','Regular','Active');
 
 
 select * from active_readers;
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 //To create a bookissue_details table
 create table bookissue_details
